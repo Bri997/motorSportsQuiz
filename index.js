@@ -1,12 +1,12 @@
 const questionList = [
   {
 
-    question: 'The constructor with the most wins in Formula 1 is ?',
-    answer1: 'Ferrari',
-    answer2: 'Williams',
-    answer3: 'Lotus',
-    answer4: 'Red Bull',
-    correct: 'Ferrari'
+  question: 'The constructor with the most wins in Formula 1 is ?',
+  answer1: 'Ferrari',
+  answer2: 'Williams',
+  answer3: 'Lotus',
+  answer4: 'Red Bull',
+  correct: 'Ferrari'
   },
 
   {
@@ -51,12 +51,12 @@ const questionList = [
 
   {
 
-    question: 'The last turn of the last race determined the Formula 1 drivers championship in what year ?',
-    answer1: '2006',
-    answer2: '1999',
-    answer3: '2008',
-    answer4: '2011',
-    correct: '2008'
+  question: 'The last turn of the last race determined the Formula 1 drivers championship in what year ?',
+  answer1: '2006',
+  answer2: '1999',
+  answer3: '2008',
+  answer4: '2011',
+  correct: '2008'
   },
 
   {
@@ -68,7 +68,7 @@ const questionList = [
   answer4: 'Winning the most races',
   correct: 'Extreme partying'
 
-},
+  },
   {
 
   question: 'The last year for the classic running start of the 24 Hours of LeMans ?',
@@ -153,7 +153,7 @@ function handleStartButton() {
               ${questionList[questionNumber].answer4}
               </label>
               </div>
-              <button type="submit" aria-labelledby="Start button" class="btn btn-dark submitButton">Submit</button>
+              <button type="submit" aria-labelledby="Submit button" class="btn btn-dark submitButton">Submit</button>
             </fieldset>
           </form>
     `);
@@ -301,25 +301,3 @@ function handleAllButtons() {
 }
 
 $(handleAllButtons);
-
-
-
-// }
-// function questionShower() {
-//   $('.displayQuestion').text(questionList[questionNumber].question);
-//   $('#displayAnswer0').text(questionList[questionNumber].answer1);
-//   $('#displayAnswer1').text(questionList[questionNumber].answer2);
-//   $('#displayAnswer2').text(questionList[questionNumber].answer3);
-//   $('#displayAnswer3').text(questionList[questionNumber].answer4);
-//
-// }
-//
-// function startQuiz() {
-//   $('.splashScreen').on('click', '.js-button-start', function(){
-//     $('.splashScreen').css('display', 'none');
-//     }
-//
-// )};
-//
-// $(".js-next-button").click(() => {
-//   questionNumber++;
